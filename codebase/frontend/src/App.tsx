@@ -138,7 +138,7 @@ const App: React.FC = () => {
               </div>
 
               <div className="flex gap-2 flex-wrap">
-                {(['ALL', 'ELECTRICITY', 'GAS', 'SOLAR'] as EnergyFilterType[]).map(type => (
+                {(['ALL', 'ELECTRICITY', 'GAS' ] as EnergyFilterType[]).map(type => (
                   <button
                     key={type}
                     onClick={() => setEnergyFilter(type)}
